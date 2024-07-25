@@ -4,6 +4,16 @@
   box-sizing: inherit;
 }
 
+button {
+  border: none;
+  outline: none;
+  transition: all 0.3s;
+}
+
+button:focus {
+  box-shadow: 0px 0px 0px 8px rgb(173, 250, 183);
+}
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -53,15 +63,7 @@ p {
   font-size: 1.8rem;
 }
 
-button {
-  border: none;
-  outline: none;
-  transition: all 0.3s;
-}
 
-button:focus {
-  box-shadow: 0px 0px 0px 8px rgb(173, 250, 183);
-}
 
 /* -------------------------- */
 /* CLASSES TO MAKE MODAL WORK */
